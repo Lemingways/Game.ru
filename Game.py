@@ -15,10 +15,11 @@ print()
 
 def show():
     print("  | 0 | 1 | 2 |")
+    print("-" * 15)
     for i in range(3):
         row = " | ".join(field[i])
         print(f"{i} | {row} |")
-        print("_______________")
+        print("-" * 15)
 
 
 def ask():
